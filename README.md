@@ -19,5 +19,4 @@ Prepares the dataset for analysis
 - Enjoy exploring the dashboard!
 
 Created by 
-Bashayr
-Maryam
+Bashayr & Maryam

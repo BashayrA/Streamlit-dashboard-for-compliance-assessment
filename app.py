@@ -32,7 +32,7 @@ st.set_page_config(
     page_title="قطاع الشركات",
     page_icon="📊",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 PALETTE = {
@@ -133,7 +133,7 @@ CUSTOM_CSS = f"""
     }}
 
     div[data-testid="stMetricValue"] {{ color: {PALETTE['ink']}; }}
-    section[data-testid="stSidebar"] *{{ 
+    section[data-testid="stSidebar"] {{ 
     background-color: #0B2540; /* dark navy */
     border-right: 1px solid #1B6F8C; }}
     /* ⭐ ADVANCED ANALYTICS — ALL TEXT INSIDE TABS */
